@@ -1,6 +1,6 @@
 import "./Body.css";
 
-import mai from "../../assets/images/mai-wide.jpg";
+import mai from "../../assets/images/mai-wide-cropped.jpg";
 
 
 export default function Body() {

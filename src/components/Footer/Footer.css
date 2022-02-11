@@ -18,7 +18,6 @@
   margin: auto;
   height: 500px;
   position: fixed;
-  top: 0%;
   left: 33vw;
   width: 100%;
   color: black;
@@ -50,6 +49,8 @@
 .highlight {
 
   font-family: 'Amatic SC', cursive;
-  font-size: 2em;
+  font-weight: bold;
+  font-size: 1.5em;
+  text-decoration: underline;
   word-spacing: 10px;
 }
