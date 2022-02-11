@@ -52,10 +52,16 @@
 }
 
 .highlight a {
-  text-align: justify;
-  width: 100px;
+  text-align: center;
+  width: 200px;
   background: black;
   color: white;
+  padding: 5px;
+}
+
+.highlight a:hover {
+  background: cyan;
+  color: black;
 }
 
 
@@ -68,3 +74,31 @@
   height: 500px;
   position: relative;
 }
+
+
+.work-example-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: auto;
+  padding-top: 50px;
+}
+
+.work-example {
+  flex-direction: column;
+  margin-right: 10px;
+}
+
+.work-example-list {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  justify-content: flex-start;
+  padding-top: 20px;
+}
+
+.work-example-list div {
+  padding: 10px;
+}
+
+
