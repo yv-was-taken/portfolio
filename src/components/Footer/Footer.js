@@ -7,10 +7,19 @@ export default function Footer() {
     <div className="footer-container">
       <div className="footer-links-container">
 
-        <div className="highlight">almost 9,000 followers on twitter <br/> (I'm good at shitposting)</div>
-        <div className="highlight">Intro to TA series</div>
-        <div className="highlight">Full Stack: onepixel.</div>
-        <div className="highlight">Frontend Development @UXDProtocol</div>
+        <div className="highlight">Dev: OnlyOnePixel</div>
+
+        <div className="highlight">
+          <div>
+            Frontend Development @UXDProtocol
+
+          </div>
+          <div>
+            August 2021 - Current
+          </div>
+
+        </div>
+
       </div>
 
     </div>

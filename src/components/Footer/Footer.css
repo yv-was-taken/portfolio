@@ -18,8 +18,6 @@
   margin: auto;
   height: 500px;
   position: fixed;
-  left: 33vw;
-  width: 100%;
   color: black;
   text-align: center;
 
@@ -31,7 +29,6 @@
   display: flex;
   justify-content: center;
   align-items: top;
-  width: 100%;
   text-align: center;
   font-family: 'Amatic SC', cursive;
   position: fixed;
@@ -51,6 +48,23 @@
   font-family: 'Amatic SC', cursive;
   font-weight: bold;
   font-size: 1.5em;
-  text-decoration: underline;
   word-spacing: 10px;
+}
+
+.highlight a {
+  text-align: justify;
+  width: 100px;
+  background: black;
+  color: white;
+}
+
+
+.UXD-links-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin: auto;
+  height: 500px;
+  position: relative;
 }
