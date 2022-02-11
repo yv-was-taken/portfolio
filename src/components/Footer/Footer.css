@@ -23,7 +23,7 @@
   width: 100%;
   color: black;
   text-align: center;
-  
+
 
 }
 
@@ -39,6 +39,7 @@
   left: 33vw;
   height: 200px;
 
+  letter-spacing: 0.1em;
   font-weight: bold;
 
 

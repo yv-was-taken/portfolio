@@ -10,7 +10,7 @@ export default function Header() {
 
     <div className="header-container">
       <div className="header-text">
-        eat, sleep, dev, trade, shitpost 
+        Links 
       </div>
       <div className="links-container">
         <a href="https://github.com/ywvlfy" target="_blank" rel="noreferrer">
