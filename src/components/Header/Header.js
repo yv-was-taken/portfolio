@@ -9,9 +9,6 @@ export default function Header() {
   return(
 
     <div className="header-container">
-      <div className="header-text">
-        Links 
-      </div>
       <div className="links-container">
         <a href="https://github.com/ywvlfy" target="_blank" rel="noreferrer">
           <Icon icon="bi:github" className="header-link-icon" width="100"/>
