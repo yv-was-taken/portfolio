@@ -1,7 +1,56 @@
 <!DOCTYPE html>
 <html>
+  <style>
+  body {
+    font-size: 2rem;
+
+  }
+
+
+a {
+  color: inherit;
+  text-decoration: none;
+  cursor: pointer;
+  border: none;
+  background: none;
+  padding: 0;
+  margin: 0;
+  outline: none;
+  -webkit-tap-highlight-color: transparent;
+  padding: 3px;
+  display: absolute;
+}
+
+/* Optional: Remove the visited color state */
+a:visited {
+  color: inherit;
+}
+
+/* Optional: Remove focus outline but maintain accessibility */
+a:focus {
+  outline: none;
+}
+
+/* Optional: Remove touch highlight on mobile */
+a:active {
+  -webkit-tap-highlight-color: transparent;
+}
+
+a:hover {
+  background: #3786FF;
+  transition: background 0.25s;
+}
+
+  li {
+    list-style-type: none;
+    padding-bottom: 20px;
+    
+
+  }
+    
+
+  </style>
     <head>
-        <script src="https://cdn.tailwindcss.com"></script>
         <title>yv</title>
         <meta charset="utf-8" />
         <meta name="description" content="yv-was-taken portfolio website" />
@@ -17,24 +66,16 @@
             overflow-x-hidden
         "
     >
-        <img src="cat.png" class="w-1/5 m-auto" />
 
         <h1 class="text-center text-4xl">
-            <a
-                href="https://github.com/yv-was-taken"
-                rel="noreferrer"
-                target="_blank"
-                class="text-blue-800 dark:text-blue-500 font-bold underline"
-            >
-                yv
-            </a>
         </h1>
-        <h2 class="text-center pt-5 text-lg">
-            fullstack cat, enjoys pushing the ball forward... and catnip.
-        </h2>
-        <div class="p-5 flex flex-row justify-center items-center">
+        <p class="display: absolute;">
+“The privilege of a lifetime is to become who you truly are.”
+― Carl Jung 
+        </p>
+        <div style="">
             <span
-                >contact me via
+                >
                 <a
                     href="mailto:yvmail@proton.me"
                     class="
@@ -46,7 +87,7 @@
                     "
                     >email</a
                 >
-                or view my
+               &nbsp
                 <a
                     href="https://github.com/yv-was-taken"
                     rel="noreferrer"
@@ -58,10 +99,8 @@
                         dark:text-blue-500
                         underline
                     "
-                >
-                    github
-                </a>
-                and
+                >github</a>
+                 &nbsp
                 <a
                     href="https://x.com/yvtweets"
                     rel="noreferrer"
@@ -78,156 +117,16 @@
                 </a>
             </span>
         </div>
-        <div
-            class="w-full h-full flex flex-col justify-around items-center p-10"
-        >
-            <h2 class="text-4xl font-bold p-5">Projects:</h2>
-            <ul class="w-[800px] text-left list-decimal">
-                <li>
-                    <h3 class="italic text-3xl">
-                        <a
-                            href="https://github.com/daredrop-xyz/daredrop-xyz"
-                            rel="noreferrer"
-                            target="_blank"
-                            class="
-                                font-bold
-                                italic
-                                text-blue-800
-                                dark:text-blue-500
-                                underline
-                            "
-                            >daredrop</a
-                        >
-                    </h3>
-                    <p class="relative left-10">
-                        A decentralized, non-custodial, on-chain experiment that
-                        utilizes the embrace of risk in order to enable real
-                        yield for liquidity providers. Live on Arbitrum.
-                    </p>
+        <div class="w-full h-full flex flex-col justify-around items-center p-10">
+            <ul class="w-[800px] text-left list-none text-center">
+                <li class="mb-8">
+                    <a href="projects.html" class="text-4xl font-bold italic text-blue-800 dark:text-blue-500 underline">Projects</a>
                 </li>
-                <li>
-                    <h3 class="italic text-3xl">
-                        <a
-                            href="https://github.com/yv-was-taken/twinky"
-                            rel="noreferrer"
-                            target="_blank"
-                            class="
-                                font-bold
-                                italic
-                                text-blue-800
-                                dark:text-blue-500
-                                underline
-                            "
-                            >twinky</a
-                        >
-                    </h3>
-                    <p class="relative left-10">
-                        Crypto cex trading discretionary CLI suite. Designed
-                        from a modular approach.
-                    </p>
+                <li class="mb-8">
+                    <a href="writings.html" class="text-4xl font-bold italic text-blue-800 dark:text-blue-500 underline">Writings</a>
                 </li>
-            </ul>
-            <h2 class="text-4xl font-bold p-5">Writings:</h2>
-            <ul class="w-[800px] text-left list-decimal">
-                <li>
-                    <h3 class="italic text-3xl">
-                        <a
-                            href="https://mirror.xyz/0xDa4ed513c41367E7eD3468FC61a8e992C34d6f89/ZavYcXWRFMEmiplAiAoDXCMVNZqa0TK9g5bZgDtaP9w"
-                            rel="noreferrer"
-                            target="_blank"
-                            class="
-                                font-bold
-                                italic
-                                text-blue-800
-                                dark:text-blue-500
-                                underline
-                            "
-                        >
-                            Why Ethereum Isn't Broken
-                        </a>
-                    </h3>
-                    <p class="relative left-10">
-                        High level technical overview arguing for the
-                        justification of blockspace pricing models for onchain
-                        gas economies.
-                    </p>
-                </li>
-                <li>
-                    <h3 class="italic text-3xl">
-                        <a
-                            href="https://yvtakesrisks.medium.com/"
-                            class="
-                                font-bold
-                                italic
-                                text-blue-800
-                                dark:text-blue-500
-                                underline
-                            "
-                            rel="noreferrer"
-                            target="_blank"
-                        >
-                            Introduction To Technical Analysis [Series]
-                        </a>
-                    </h3>
-                    <p class="relative left-10">
-                        Series of Medium articles intended to illustrate
-                        Technical Analysis done right.
-                    </p>
-                </li>
-            </ul>
-            <h2 class="text-4xl font-bold p-5">Past Experience:</h2>
-            <ul class="w-[800px] text-left list-decimal">
-                <li>
-                    <h3 class="italic text-3xl p-1 pl-0">
-                        <a
-                            class="
-                                font-bold
-                                italic
-                                text-blue-800
-                                dark:text-blue-500
-                                underline
-                            "
-                            href="https://uxd.fi/"
-                            target="_blank"
-                            rel="noreferrer"
-                            >UXD Protocol</a
-                        >
-                        - Frontend Developer
-                    </h3>
-                    <ul class="relative left-10">
-                        <li>
-                            Collaborated closely with fellow designers and
-                            engineers to aid in the successful transition of a
-                            product from ideation to fruition.
-                        </li>
-                    </ul>
-                </li>
-                <li>
-                    <h3 class="italic text-3xl p-1 pl-0">
-                        <a
-                            class="
-                                font-bold
-                                italic
-                                text-blue-800
-                                dark:text-blue-500
-                                underline
-                            "
-                            href="https://clutchy.io/"
-                            target="_blank"
-                            rel="noreferrer"
-                            >Clutchy</a
-                        >
-                        - Fullstack Developer
-                    </h3>
-                    <ul class="relative left-10">
-                        <li>
-                            Lead developer of launchpad collection deployment
-                            process. Administrated proper testing, parsing,
-                            processing of blockchain data, error handling, and
-                            edge case diagnostics to ensure a smooth and
-                            seamless customer and developer experience.
-                        </li>
-                    </ul>
+                <li class="mb-8">
+                    <a href="experience.html" class="text-4xl font-bold italic text-blue-800 dark:text-blue-500 underline">Past Experience</a>
                 </li>
             </ul>
         </div>
